@@ -1,0 +1,53 @@
+<div id="container" @fade>
+
+  <div id="card">
+      <a class="nav-link" routerLink='../patientData'>
+        TBD
+      </a>
+    <div id="in_card">
+    <p id="head">Edit Patient Details</p>
+      
+    
+
+    <div id="name">
+      <p class="subhead">Patient ID & Name:</p>
+      <input type="text" class="form-control" pattern="[0-9]{3,15}" required id="userName" placeholder="*Patient ID" title="*Letters only">
+      <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required id="name" placeholder="*First Name" title="*Letters only">
+      <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required id="surname" placeholder="*Last name" title="*Letters only">
+      <p class="subhead">Birthday:</p>
+      <input type="text" class="form-control" pattern="[0-9]" required id="userName" placeholder="*Birthday (dd/mm/yyyy)" title="*Letters only">
+    </div>
+  
+    <div id="address">
+      <p class="subhead" id="address">Address:</p>
+        <input type="text" class="form-control" required placeholder="Streets Adress, # no">
+        <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required placeholder="Country" title="*Letters only">
+        <input type="text" id="postal" class="form-control" pattern="[0-9]{3,15}" placeholder="Postal Code" title="*Digits only">
+  
+        <p class="subhead" id="phone">Mobile & Email:</p>
+        <input type="text"  class="form-control" pattern="[0-9]{3,14}" required placeholder="+000 00 000 0000"  title="*Digits only">
+        <input type="text"  class="form-control" required placeholder="*Email">    
+    </div>
+  
+    <div id="recorder">
+      <p class="subhead">Recorder Serial Number</p>
+      <div id="bottom-line">
+  
+        <div id="record">
+            <input type="text" class="form-control" placeholder="0000 0000 0000 0000 00000"  pattern="[0-9]" required  title="*Digits only"> 
+            
+            
+        </div>
+        
+        TBD
+        <button class="btn btn-primary" id="save" type="submit">Save</button>     
+        <button class="btn btn-primary" id="save" type="submit">Clear</button> 
+        
+      </div>
+    </div>
+  
+  </div>
+      
+  </div>
+  
+</div>

@@ -1,0 +1,104 @@
+#container{
+    float: right;
+    margin-right: 50px;
+}
+
+ #arrowup{
+    float: right;
+    margin-top: 11px;
+    margin-right: 11px;
+}
+
+#box{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form-control{
+    background-color:transparent;
+    width:266px;
+    height:44px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;
+    border-style:solid;
+
+    margin-bottom: 10px;
+}
+
+#password{
+    margin-top: 44px;
+}
+
+#save{
+    margin-top: 40px;
+
+    background-color:rgb(26,117,187);
+    width:114px;
+    height:44px;
+    border-radius:10px ;
+    box-shadow:1px 1px 12px rgba(0,0,0,0.26);
+    margin-left: 10px;
+
+}
+
+#save:focus {
+    background-color:rgb(19,87,138);
+}
+
+.head{
+    margin-bottom: 18px;
+
+    font-family:Lato;
+    font-size:22px;
+    line-height:26px;
+    color:rgb(19,87,138);
+    text-align:left;
+}
+
+#forgot{
+
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    color:rgb(19,87,138);   
+    text-align:left;
+}
+
+.subhead{
+    
+    margin-bottom: 0px;
+
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    color:rgb(51,51,51);
+    text-align:left;
+}
+
+#hello{
+    background: transparent;
+    border: transparent;
+
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    color:rgb(255,255,255);
+    text-align:center;
+}
+
+#edit_bar{
+    display: none;
+
+    position: absolute;
+    margin-top: 7px;
+
+    background-color:rgb(255,255,255);
+    width:300px;
+    height:724px;
+    box-shadow:1px 2px 15px rgba(0,0,0,0.26)
+}
+
+#arrow{
+    margin-left: 23px;
+}

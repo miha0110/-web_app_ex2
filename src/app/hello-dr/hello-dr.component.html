@@ -1,0 +1,38 @@
+
+<div id="container">
+    <button id="hello" (click)="show()">Hello Dr. TBD <img id="arrow" src="../assets/arrowdown_white.png"></button>
+
+    <div id="edit_bar" @slideDown>
+        <img id="arrowup" (click)="show()" src="../assets/arrowup_icon.png">
+
+        <div id="box">
+            <p class="head">Edit Profile</p>
+         
+            
+
+            <div id="address">
+                <span class="subhead">My Adress is:</span>
+                <input type="text" class="form-control" placeholder="Streets Adress, # no">
+                <input type="text" class="form-control" placeholder="Country">
+                <input type="text" id="postal" class="form-control" placeholder="Postal Code">
+        
+                <p class="subhead" id="phone">My Phone is:</p>
+                <input type="text" class="form-control" placeholder="+000 0 000-0000000">
+            
+                <p class="subhead" id="phone">My Email is:</p>
+                <input type="text" class="form-control" placeholder="+000 0 000-0000000">
+            </div>
+
+            <div id="password">
+                <p class="head">Password Change</p>
+                <input type="text" class="form-control" placeholder="Old Password">
+                <input type="text" class="form-control" placeholder="New Password">
+                <a id="forgot" href="forgot" >Forgot Password?</a>
+            </div>
+            
+            <button class="btn btn-primary" id="save" type="submit">Clear</button>   
+            <button class="btn btn-primary" id="save" type="submit">Save</button>   
+
+        </div>
+    </div>
+</div>

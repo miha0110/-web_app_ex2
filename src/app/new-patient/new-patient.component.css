@@ -1,0 +1,125 @@
+#container{
+    margin-top: 47px;
+   
+    
+}
+
+#card{
+    margin-top:40px;
+    background-color:rgb(255,255,255);  
+    width:750px;
+    height:500px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;
+    border-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#in_card{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    margin-top: 25px;
+    font-family:Lato;
+    font-size:22px;
+    line-height:26px;
+    color:rgb(19,87,138);
+    text-align:left;
+    margin-bottom: 18px;
+}
+
+.subhead{
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    color:rgb(51,51,51);
+    text-align:left;
+    margin: 0px;
+}
+
+
+.form-control{
+    background-color:rgb(255,255,255);
+    width:266px;
+    height:44px;    
+    border-color:rgb(19,87,138);
+    border-width:2px;   
+    border-radius:10px ;
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    font-style:regular;
+    color:rgb(102,102,102);
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+
+
+#record{
+    
+    float: left;
+}
+
+
+#rec_num_last{
+    width: 50px;
+}
+
+::placeholder{
+    
+    font-style:italic;
+    color:rgb(102,102,102);
+}
+
+#name{
+    width:266px;
+    float:left;
+    
+}
+
+#address{
+    width: 266px;
+    float: right;
+}
+
+#recorder{
+    float: left;
+    width: 600px;
+   
+     
+}
+
+
+
+#bottom-line{
+ 
+   margin-right: 0px;
+   
+   
+    
+}
+
+.nav-link{
+    float: right;
+    
+}
+
+#save{
+    background-color:rgb(26,117,187);
+    width:114px;
+    height:44px;
+    border-radius:10px ;
+    box-shadow:1px 1px 12px rgba(0,0,0,0.26);
+    float: right;
+    margin-left: 30px;
+}
+
+#save:focus {
+    background-color:rgb(19,87,138);
+}

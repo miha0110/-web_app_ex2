@@ -1,0 +1,59 @@
+
+#top_nav{
+    background-color: white; 
+    height: 48px;
+    
+    margin-left: 114px; 
+    position: inherit;
+}
+
+ #links{
+   
+   display: inline-flex;
+   margin-left: -57px;
+   margin-top: 8px;
+     
+ }
+
+ .logo{
+    float:left;
+ }
+
+#icons{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .text{
+     float: right;
+ }
+
+ .nav-link{
+    height:46px;
+    font-family:Lato;
+    font-size:18px;
+    line-height:90%;    
+    color:rgb(25,116,186);
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 32px;
+    margin-right: 32px;
+    
+ }
+
+ #hello{
+     position: relative;
+     float: right;
+     margin-top: -83px; 
+     margin-right: 144px;
+ }
+
+   
+#signup{
+    float:right;
+}
+
+#right_corner
+{
+    float: right;
+}

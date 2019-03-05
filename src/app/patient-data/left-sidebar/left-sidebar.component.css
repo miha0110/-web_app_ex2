@@ -1,0 +1,59 @@
+#container{
+    display: flex;
+}
+
+#aside{
+    
+    background: white;
+    width: 295px;
+    box-shadow:1px 1px 4px rgba(0,0,0,0.26);
+    height: 95vh;
+    margin-top: -48px;
+    position: initial;
+}
+
+#spacer{
+    height: 74px;
+}
+
+#patient{
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color:transparent;
+    width:261px;
+    height:117px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:15px ;
+    border-style:solid
+}
+
+#icons{
+    margin-top: 26px;
+    cursor:pointer
+}
+
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc{
+    font-family:Lato;
+    font-size:12px;
+    line-height:120%;
+    color:rgb(19,87,138);
+    text-align:center;
+}
+
+
+.icons_group{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    height: 110px;
+}
+

@@ -1,0 +1,41 @@
+
+<nav id="top_nav" class="navbar navbar-md">
+    <div id="icons">
+  <ul class="nav navbar-nav-md" id="links">
+    
+      <li>
+        <a class="nav-link" routerLink='inactive' id="inactive"  (click)="chosen='inactive'; morphIcon()">
+          <div class ="logo" >TBD<img src="./assets/menu_small_newcustomers_icon.png"></div>
+          <div class = "text">Inactive<br>Patients</div>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink='patientData' id="patientData" (click)="chosen='patientData'; morphIcon()">
+          <div class ="logo">TBD<img src="./assets/menu_small_datafrompatient_icon.png"></div>
+          <div class = "text">Data from<br>Patient</div>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink='newPatient' id="newPatient" (click)="chosen='newPatient'; morphIcon()">
+          <div class ="logo"><img src="./assets/menu_small_newpatient_icon.png"></div>
+          <div class = "text">New<br>Patient</div>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink='search' id="search" (click)="chosen='search'; morphIcon()">
+          <div class ="logo"><img src="./assets/menu_small_searchpatients_icon.png"></div>
+          <div class = "text">Search<br>patients</div>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+  
+ 
+</nav>
+<div id="hello">
+  <app-hello-dr></app-hello-dr>
+</div>  
+<router-outlet></router-outlet>
+
+

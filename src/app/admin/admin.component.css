@@ -1,0 +1,26 @@
+
+ul {
+    list-style: none;
+}
+
+#container{
+    margin-top: 100px;
+    display: inline-flex;
+}
+
+.nav-link{
+    color: rgb(19,87,138);
+    height: 46px;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: "Tahoma";
+}
+
+#text{
+    
+    color: red;
+}
+
+#rout{
+    margin-left: 50px;
+}

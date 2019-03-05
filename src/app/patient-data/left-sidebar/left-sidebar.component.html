@@ -1,0 +1,50 @@
+
+<div id="container" >
+    <div id="aside" @slideRight>
+        <div id="spacer"></div>
+        <div class="card" id="patient">
+            <p>Patient data goes here</p>
+        </div>
+
+        <div id="icons">
+            <div class="icons_group">
+
+                <a  class="nav-link" routerLink='messages' (click)="chosen='messages'; morphIcon(); ">
+                        <img id="messages" src="../../assets/messages_reg.png">
+                    <div class = "desc">Messages</div>
+                </a>
+
+                <a  class="nav-link" routerLink='conclusion' (click)="chosen='conclution'; morphIcon()">
+                    <img id="conclution" src="../../assets/conclution_reg.png">
+                    <div class = "desc">Medical<br>Conclusions</div>
+                </a> 
+
+                <a class="nav-link" routerLink='diary' (click)="chosen='diary'; morphIcon()">
+                    <img id="diary" src="../../assets/diary_reg.png">
+                    <div class = "desc">Diary</div>
+                </a>
+
+            </div>
+            <div class="icons_group">
+                <a class="nav-link" routerLink='questioneer' (click)="chosen='questioneer'; morphIcon()">
+                    <img id="questioneer" src="../../assets/questioneer_reg.png">
+                    <div class = "desc">questionnaire</div>
+                </a>
+
+                <a class="nav-link" routerLink='report' (click)="chosen='report'; morphIcon()">
+                    <img id="report" src="../../assets/reportsl_reg.png">
+                    <div class = "desc">reports</div>
+                </a>
+
+                <a class="nav-link" routerLink='main' (click)="chosen='graph'; morphIcon()">
+                    <img id="graph" src="../../assets/graphsl_reg.png">
+                    <div class = "desc">Graphs</div>
+                </a>
+            </div>
+        </div>
+    </div>  
+
+    <div id="disp">
+        <router-outlet></router-outlet>
+    </div>
+</div>

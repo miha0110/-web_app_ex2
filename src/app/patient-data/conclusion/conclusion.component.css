@@ -1,0 +1,94 @@
+
+.card{
+    background-color:rgb(255,255,255);  
+    width:721px;
+    height:608px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;    
+    border-style:solid;
+
+    margin-left: 91px;
+    margin-top: 30px;
+}
+
+#doc_name{
+    font-family:Lato;   
+    font-size:16px;
+    line-height:22px;
+    color:rgb(26,117,187);
+    text-align:left;
+
+    margin-left: 23px;
+    margin-top: 23px;
+    margin-bottom: 5px;
+}
+
+.doc_address{
+    font-family:Lato;
+    font-size:14px;
+    line-height:26px;
+    font-style:italic;
+    color:rgb(102,102,102);
+    text-align:left;
+
+    margin-left: 23px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#patient{
+    font-family:Lato;
+    font-size:16px;
+    line-height:26px;
+    font-style:italic;  
+    color:rgb(102,102,102);
+    text-align:left;
+
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-bottom: 19px;
+}
+
+#letter{
+    border: transparent;
+    height: 300px;
+}
+
+#foot{
+    height: 135px;
+    display: inline-flex;
+}
+
+#signature{
+    margin-left: 23px;
+    margin-top: 41px;
+    width: 150px;
+
+    font-family:Lato;
+    font-size:16px;
+    line-height:18px;
+    font-style:italic;
+    color:rgb(102,102,102); 
+    text-align:left;
+}
+
+#send{
+    float: right;
+    background-color:rgb(26,117,187);
+    width:114px;
+    height:44px;
+    border-radius:10px ;
+    box-shadow:1px 1px 12px rgba(0,0,0,0.26);
+    float: right;
+
+    
+    margin-left: 377px;
+    margin-top: 75px;
+}
+
+#send:focus {
+    background-color:rgb(19,87,138);
+}
+

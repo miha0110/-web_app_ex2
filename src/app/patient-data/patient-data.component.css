@@ -1,0 +1,84 @@
+.card{
+    margin-top:40px;
+    background-color:rgb(255,255,255);  
+    width:721px;
+    height:610px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;
+    border-style:solid;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search{
+    
+    
+    border-top: 2px solid #F5F5F5;
+    
+    width: 100%;
+    background: white;
+    padding-top: 5px;
+    
+}
+
+.textarea{
+    
+    border: transparent;
+    width:689px;
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;
+    border-style:solid;
+    height:44px; 
+   
+    padding: 10px;
+}
+
+#search_items{
+    width: 721px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar{
+    float: left;
+}
+
+th{
+    font-family: "Tahoma";
+    font-size: 15px;
+    font-weight: 100;
+    background: rgba(26,117,187,0.07);
+    color: rgb(26,117,187);
+}
+
+
+
+
+table{
+    margin: 10px;
+}
+
+.col1{
+    width:150px;
+}
+.col2{
+    width: 150px;
+}
+.col3{
+    width: 150px
+}
+.col4{
+    width: 150px
+}
+.col5{
+    width: 200px
+}
+.col6{
+    width:75px;
+}
+.col7{
+    width: 200px
+}

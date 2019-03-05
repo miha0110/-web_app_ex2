@@ -1,0 +1,113 @@
+
+
+#container{
+    width: 780px;
+    margin-left: 91px;
+    margin-top: 47px;
+}
+
+.card{
+    background-color:rgb(255,255,255);
+    width:780px;
+    border-color:rgb(119,119,119);;
+    border-width:2px;
+    border-radius:10px;        
+    border-style:solid;
+    height: 44px;
+
+    margin-top: 7px;
+    display: flex;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+    font-family: Lato;
+    font-size:18px;
+    line-height:120%;
+    font-style:italic;
+    color:rgb(153,153,153);
+    text-align:left;
+}
+
+span{
+    font-family:Lato;
+    font-size:14px;
+    line-height:107%;
+    color:rgb(102,102,102);
+    text-align:left;
+
+    
+}
+
+#inbox{
+    margin-left: 21px;
+}
+
+.hidden{
+    display: none;
+}
+
+.head{
+    font-family:Lato;
+    font-size:14px;
+    line-height:26px;
+    color:rgb(51,51,51);    
+    text-align:left;
+   
+
+    display: inline;
+}
+
+#headRight{
+    float: right;
+    margin-right: 30px;
+    
+}
+
+#headLeft{
+    margin-left: 21px; 
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    margin-top: 7px;
+}
+
+img{
+    margin-right: 10px;
+}
+
+#drops_text{
+    font-family:Lato;
+    font-size:14px;
+    line-height:200%;
+    color:rgb(134,182,217);
+    text-align:left;
+
+    
+}
+
+button{
+    color: transparent;
+    background: transparent;
+    border: transparent;
+}
+
+.arrow{
+    float: right;
+    margin-right: 11px;
+    margin-top: -11px;
+}
+
+.arrowup{
+    float: right;
+    margin-right: 11px;
+    margin-top: -25px;
+    display: none;
+}

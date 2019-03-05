@@ -1,0 +1,50 @@
+<div id="container" @fade>
+
+    <div id="card">
+      
+      <form id="in_card">
+      <p id="head">New  Patient</p>
+        
+      
+  
+      <div id="name">
+        <p class="subhead">Patient ID & Name:</p>
+        <input type="text" class="form-control" pattern="[0-9]{3,15}" required id="userName" placeholder="*Patient ID" title="*Digits only">
+        <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required id="name" placeholder="*First Name" title="*Letters only">
+        <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required id="surname" placeholder="*Last name" title="*Letters only">
+        <p class="subhead">Birthday:</p>
+        <input type="text" class="form-control" pattern="[0-9]{10}" required id="userName" placeholder="*Birthday (dd/mm/yyyy)" title="*Digits only">
+      </div>
+    
+      <div id="address">
+        <p class="subhead" id="address">Address:</p>
+          <input type="text" class="form-control" required placeholder="Streets Adress, # no">
+          <input type="text" class="form-control" pattern="[A-Za-z]{3,15}" required placeholder="Country" title="*Letters only">
+          <input type="text" id="postal" class="form-control" pattern="[0-9]{3,15}" placeholder="Postal Code" title="*Digits only">
+     
+          <p class="subhead" id="phone">Mobile & Email:</p>
+          <input type="text"  class="form-control" pattern="[0-9]{7,15}" placeholder="+(7) 00 000 0000" required title="*Digits only">
+          <input type="text"  class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="*Email">    
+      </div>
+      <div id="recorder">
+        <p class="subhead">Recorder Serial Number</p>
+        <div id="bottom-line">
+    
+          <div id="record"> 
+              <input type="text" class="form-control" pattern="[0-9]{16,16}"  required placeholder="0000-0000-0000-0000" title="*Digits only"> 
+              
+              
+          </div>
+          
+          TBD
+          <button class="btn btn-primary" id="save" type="submit">Save</button>     
+          <button class="btn btn-primary" id="save" type="submit">Clear</button> 
+          
+        </div>
+      </div>
+    
+    </form>
+        
+    </div>
+    
+  </div>

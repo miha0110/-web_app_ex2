@@ -1,0 +1,15 @@
+
+#container{
+    margin-top: 84px;
+    margin-left: 91px;
+}
+
+.card{
+    background-color:rgb(255,255,255);
+    width:905px;
+    height:206px;
+    border-color:rgb(19,87,138);
+    border-width:2px;   
+    border-radius:15px ;    
+    border-style:solid;
+}

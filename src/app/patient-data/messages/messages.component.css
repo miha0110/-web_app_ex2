@@ -1,0 +1,55 @@
+
+#container{
+    width: 1100px;
+    display: flex;
+    margin-left: 91px;
+    margin-top: 30px;
+}
+
+.card{
+    background-color:rgb(255,255,255);
+    width:465px;
+    
+    border-color:rgb(19,87,138);
+    border-width:2px;
+    border-radius:10px ;
+    border-style:solid;
+    margin-right: 79px;
+}
+
+#list{
+    height: 700px;
+}
+
+#detail{
+    height:206px;
+}
+
+#textarea{
+    height: 100%;
+    border-radius:10px;
+    border-color: transparent;
+}
+
+#send{
+    float: right;
+    background-color:rgb(26,117,187);
+    width:114px;
+    height:44px;
+    border-radius:10px ;
+    box-shadow:1px 1px 12px rgba(0,0,0,0.26);
+    
+    float: left;
+    margin-top: 17px;
+     
+}
+
+#send:focus {
+    background-color:rgb(19,87,138);
+}
+
+#send_mark{
+    float: left;
+    margin-top: 17px;
+    display: flex;
+}
